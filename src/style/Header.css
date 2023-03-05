@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: darkblue;
+    transition: background-color 400ms ease-in-out;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    header {
+        justify-content: flex-end;
+    }
+    nav {
+        gap:20px;
+    }
+}
