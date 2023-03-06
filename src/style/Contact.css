@@ -1,0 +1,42 @@
+#contact img{
+    height: 38px;
+    width: auto;
+    transition: transform 300ms ease-in;
+}
+
+#contact a img:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+#contact a:hover{
+    background-color: transparent;
+}
+
+#contact p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#contact p:first-of-type{
+    display: block;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#contact > div{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#contact > div a + a{
+    margin-left: 10px;
+}

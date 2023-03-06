@@ -11,6 +11,10 @@
     padding: 15px;
 }
 
+:root{
+    scroll-behavior: smooth;
+}
+
 .App h1{
     font-size: 1.5rem;
 }
