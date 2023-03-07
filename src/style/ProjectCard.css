@@ -33,6 +33,11 @@
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
+.card p:first-of-type {
+    text-align: center;
+    flex: 1;
+}
+
 @media (min-width:450px) {
     .card > picture img{
         width: 290px;
