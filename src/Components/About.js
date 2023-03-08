@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/About.css";
 import pfp from "../images/pfp.jpg";
+import Skills from "./Skills";
 
 function About(){
     return (
@@ -16,6 +17,9 @@ function About(){
         </p>
         <p>This portfolio contains some of the projects I've done while making my way through the curriculum.</p>
         <img src={pfp} alt=""/>
+        <h2>Skills</h2>
+        <p>These are some of the technologies I've been using recently: </p>
+        <Skills />
     </section>)
 }
 
