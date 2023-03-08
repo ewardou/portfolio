@@ -8,11 +8,21 @@ import Projects from "./Components/Projects";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div>
+        <Header />
+      </div>
       <main>
-        <About />
-        <Projects />
-        <Contact />
+        <div>
+          <About />
+        </div>
+        <div className="separator-1"></div>
+        <div>
+          <Projects />
+        </div>
+        <div className="separator-2"></div>
+        <div>
+          <Contact />
+        </div>
       </main>
     </div>
   );
