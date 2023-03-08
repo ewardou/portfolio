@@ -1,8 +1,23 @@
+#about h1 span{
+    display: inline-block;
+    background-color: skyblue;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: -1;
+}
+#about h1{
+    position: relative;
+    width: fit-content;
+}
 
-#about span{
+
+#about p span{
     font-size: 2rem;
     display: inline-block;
-    animation: salute 5s 200ms infinite;
+    animation: salute 4s 200ms infinite;
     transform-origin: 70% 70% ;
 }
 
@@ -24,22 +39,22 @@
     from {
         transform: rotate(0deg);
     }
-    5% {
+    8% {
         transform: rotate(15deg);        
     }
-    10% {
+    16% {
         transform: rotate(-15deg);        
     }
-    15% {
+    25% {
         transform: rotate(10deg);        
     }    
-    20% {
+    35% {
         transform: rotate(-8deg);
     }
-    25% {
+    43% {
         transform: rotate(7deg);        
     }
-    30%{
+    50%{
         transform: rotate(0deg);
     }
     to{
@@ -50,7 +65,6 @@
 @media (min-width:500px) {
     #about {
         display: grid;
-        /* grid-template-areas: ; */
     }
     #about img{
         grid-column: 2;

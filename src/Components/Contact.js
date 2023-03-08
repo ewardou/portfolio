@@ -6,7 +6,7 @@ import mapMarkerIcon from "../images/map-marker.svg";
 function Contact(){
     return (
         <section id="contact">
-            <h1>Contact</h1>
+            <h1>Contact <span></span></h1>
             <p>If you would like to get in touch with me you can do it through email or LinkedIn <span style={{fontSize:"2rem"}}>&#128512;</span>.</p>
             <p>
                 <img src={mapMarkerIcon} alt="map marker icon"/>

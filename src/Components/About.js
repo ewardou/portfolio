@@ -5,7 +5,7 @@ import pfp from "../images/pfp.jpg";
 function About(){
     return (
     <section id="about">
-        <h1>About me</h1>
+        <h1>About me <span></span></h1>
         <p>Hello <span>&#128075;</span></p>
         <p>My name is Eduardo. I'm a self-taught web developer and an electrical engineering graduate. 
         I started learning web development in March of 2022 after finding <a href="https://www.theodinproject.com">The Odin Project</a>, an open-source curriculum maintained by its incredible community. 

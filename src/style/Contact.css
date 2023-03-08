@@ -38,3 +38,18 @@
 #contact > div a + a{
     margin-left: 10px;
 }
+
+#contact h1 span{
+    display: inline-block;
+    background-color: skyblue;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: -1;
+}
+#contact h1{
+    position: relative;
+    width: fit-content;
+}

@@ -23,7 +23,7 @@ import libraryImgWebp from "../images/library.webp";
 function Projects (){
     return (
         <section id="projects">
-            <h1>Projects</h1>
+            <h1>Projects <span></span></h1>
             <div>
                 <ProjectCard title="Shopping Cart"
                     description="It is an eCommerce website built with React.js. Users can browse the available products and add items to the cart. You can check individual product details and adjust the number of cart products."
