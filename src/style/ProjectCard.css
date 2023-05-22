@@ -47,6 +47,21 @@
     padding: 0 8px;
 }
 
+.card .tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.tags > span {
+    background-color: gray;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 0 5px;
+}
+
 @media (min-width:300px) {
     .card > picture img{
         width: 100%;

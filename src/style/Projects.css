@@ -23,6 +23,20 @@
     z-index: -1;
 }
 
+#projects > a{
+    display: block;
+    margin:0 auto;
+    margin-top: 30px;
+    width: fit-content;
+    background-color: #eee;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+#projects > a:hover{
+    background-color: darkblue;
+}
+
 @media (max-width:500px){
     #projects > div {
         grid-template-columns: 1fr;
