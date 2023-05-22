@@ -1,36 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2ea86509.css",
-    "main.js": "/portfolio/static/js/main.9791d9b0.js",
+    "main.css": "/portfolio/static/css/main.70b957ab.css",
+    "main.js": "/portfolio/static/js/main.e8c08eaf.js",
     "static/media/shopping.png": "/portfolio/static/media/shopping.f094192447e6016fd2b7.png",
+    "static/media/blog.png": "/portfolio/static/media/blog.1435abff1075377f697e.png",
     "static/media/weather.png": "/portfolio/static/media/weather.923df4859add03fd9c7b.png",
     "static/media/weather.webp": "/portfolio/static/media/weather.3c216be51b67d4034f47.webp",
+    "static/media/blog.webp": "/portfolio/static/media/blog.9b0dd809cdbaa1e37638.webp",
     "static/media/waldo.png": "/portfolio/static/media/waldo.089ba6fd32af64338a69.png",
     "static/media/pfp.jpg": "/portfolio/static/media/pfp.1f0191c97aa2be263b71.jpg",
-    "static/media/memory.png": "/portfolio/static/media/memory.43e9369cb4c0c8cba307.png",
     "static/media/library.png": "/portfolio/static/media/library.abf302cc820d6096ad37.png",
     "static/media/waldo.webp": "/portfolio/static/media/waldo.44a1b02cf0ad7bee5c93.webp",
-    "static/media/memory.webp": "/portfolio/static/media/memory.2e3c7e0e598bac07faf4.webp",
     "static/media/library.webp": "/portfolio/static/media/library.e52a78a08ea2e98614d5.webp",
     "static/media/shopping.webp": "/portfolio/static/media/shopping.9ee20edbc6f5ddf18ab6.webp",
-    "static/media/calculator.png": "/portfolio/static/media/calculator.fcfa6984ed3007f282af.png",
+    "static/media/members.png": "/portfolio/static/media/members.d07c9592ffdaf3928b7a.png",
     "static/media/battleship.webp": "/portfolio/static/media/battleship.691d70983fdc71d41550.webp",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.b521f0867e265eef10cf.png",
     "static/media/tictactoe.webp": "/portfolio/static/media/tictactoe.a0db209bfc5d7da36110.webp",
-    "static/media/todo.webp": "/portfolio/static/media/todo.16d05a7e03e5e5efe3ea.webp",
     "static/media/battleship.png": "/portfolio/static/media/battleship.f1d4adbc475267ab655f.png",
-    "static/media/todo.png": "/portfolio/static/media/todo.685999b69e3d1851f2a1.png",
-    "static/media/calculator.webp": "/portfolio/static/media/calculator.535a9319bd0c58a64bdc.webp",
+    "static/media/members.webp": "/portfolio/static/media/members.fc8a1609f01d542d9137.webp",
     "index.html": "/portfolio/index.html",
     "static/media/map-marker.svg": "/portfolio/static/media/map-marker.8ed820373498e050ba489683231bdef4.svg",
     "static/media/xml.svg": "/portfolio/static/media/xml.d99513fb63d650c3570b31cb300ba205.svg",
     "static/media/open-in-new.svg": "/portfolio/static/media/open-in-new.3ede19ed228086e87d899cfdb6684d58.svg",
     "static/media/email.svg": "/portfolio/static/media/email.c7a364af28c1fc7cbb30013d1a063471.svg",
-    "main.2ea86509.css.map": "/portfolio/static/css/main.2ea86509.css.map",
-    "main.9791d9b0.js.map": "/portfolio/static/js/main.9791d9b0.js.map"
+    "main.70b957ab.css.map": "/portfolio/static/css/main.70b957ab.css.map",
+    "main.e8c08eaf.js.map": "/portfolio/static/js/main.e8c08eaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ea86509.css",
-    "static/js/main.9791d9b0.js"
+    "static/css/main.70b957ab.css",
+    "static/js/main.e8c08eaf.js"
   ]
 }
