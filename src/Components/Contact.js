@@ -7,7 +7,7 @@ function Contact(){
     return (
         <section id="contact">
             <h1>Contact <span></span></h1>
-            <p>If you would like to get in touch with me you can do it through email or LinkedIn <span style={{fontSize:"2rem"}}>&#128512;</span>.</p>
+            <p>If you would like to get in touch with me you can send me a message through email or LinkedIn <span style={{fontSize:"2rem"}}>&#128512;</span>.</p>
             <p>
                 <img src={mapMarkerIcon} alt="map marker icon"/>
                 <span>Venezuela</span> 
