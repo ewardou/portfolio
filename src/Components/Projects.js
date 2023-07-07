@@ -5,16 +5,12 @@ import shoppingImg from "../images/shopping.png";
 import shoppingImgWebp from "../images/shopping.webp";
 import waldoImg from "../images/waldo.png";
 import waldoImgWebp from "../images/waldo.webp";
-import weatherImg from "../images/weather.png";
-import weatherImgWebp from "../images/weather.webp";
 import tictactoeImg from "../images/tictactoe.png";
 import tictactoeImgWebp from "../images/tictactoe.webp";
+import headbookImg from "../images/headbook.png";
+import headbookImgWebp from "../images/headbook.webp";
 import battleshipImg from "../images/battleship.png";
 import battleshipImgWebp from "../images/battleship.webp";
-import libraryImg from "../images/library.png";
-import libraryImgWebp from "../images/library.webp";
-import blogImg from "../images/blog.png";
-import blogImgWebp from "../images/blog.webp";
 import membersImg from "../images/members.png";
 import membersImgWebp from "../images/members.webp";
 
@@ -23,6 +19,13 @@ function Projects (){
         <section id="projects">
             <h1>Projects <span></span></h1>
             <div>
+            <ProjectCard title="Headbook"
+                    description="A Facebook clone that simulates some of its main features, like friending people, sending requests, making posts with or without images, viewing other people's profiles, etc. Use the 'continue as guest' button to have a quick look."
+                    minImage={headbookImgWebp}
+                    image={headbookImg}
+                    demo="https://ewardou.github.io/headbook/"
+                    source="https://github.com/ewardou/headbook-api"
+                    tags={["React.js", "Express.js", "MongoDB", "CSS"]}/>
                 <ProjectCard title="Shopping Cart"
                     description="It is an eCommerce website built with React.js. Users can browse the available products and add items to the cart. You can check individual product details and adjust the number of cart products."
                     minImage={shoppingImgWebp}
@@ -45,14 +48,6 @@ function Projects (){
                     demo="https://ewardou.github.io/battleship/"
                     source="https://github.com/ewardou/battleship"
                     tags={["Javascript", "HTML", "CSS"]}/>
-                
-                <ProjectCard title="Blog API"
-                    description="Personal blog app made of two client-side applications that fetch the information, in JSON format, from an API made with Express. A Mongo database stores all the blog data. Authentication with JWT is implemented for admin."
-                    minImage={blogImgWebp}
-                    image={blogImg}
-                    demo="https://ewardou.github.io/blog-front-end/"
-                    source="https://github.com/ewardou/blog-api"
-                    tags={["React.js", "Express.js", "MongoDB", "HTML", "CSS"]}/>
                 <ProjectCard title="Tic tac toe"
                     description="It is the classic game of tic tac toe. The user has the option of playing against another player locally or against the CPU."
                     minImage={tictactoeImgWebp}
@@ -60,20 +55,6 @@ function Projects (){
                     demo="https://ewardou.github.io/tic-tac-toe/"
                     source="https://github.com/ewardou/tic-tac-toe"
                     tags={["Javascript", "HTML", "CSS"]}/>
-                <ProjectCard title="Weather app"
-                    description="This app shows the current weather of a city. It uses OpenWeatherMap API to fetch the weather data. The app changes the background according to different weather conditions."
-                    minImage={weatherImgWebp}
-                    image={weatherImg}
-                    demo="https://ewardou.github.io/weather-app/"
-                    source="https://github.com/ewardou/weather-app"
-                    tags={["Javascript", "HTML", "CSS"]}/>
-                <ProjectCard title="Library"
-                    description="This application works as a personal library where the user can keep a record of planned to read / already read books. Firebase was implemented into the project to manage the books' data."
-                    minImage={libraryImgWebp}
-                    image={libraryImg}
-                    demo="https://ewardou.github.io/library/"
-                    source="https://github.com/ewardou/library"
-                    tags={["Javascript", "HTML", "Firebase","CSS"]}/>
                 <ProjectCard title="Members only"
                     description="A members' site where users can sign up and write messages, where each user has different abilities and permissions given they provide the passcode ('mango'). The app uses Passport.js with local strategy for auth."
                     minImage={membersImgWebp}
