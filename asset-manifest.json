@@ -1,19 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.70b957ab.css",
-    "main.js": "/portfolio/static/js/main.e8c08eaf.js",
+    "main.js": "/portfolio/static/js/main.1e02e51a.js",
     "static/media/shopping.png": "/portfolio/static/media/shopping.f094192447e6016fd2b7.png",
-    "static/media/blog.png": "/portfolio/static/media/blog.1435abff1075377f697e.png",
-    "static/media/weather.png": "/portfolio/static/media/weather.923df4859add03fd9c7b.png",
-    "static/media/weather.webp": "/portfolio/static/media/weather.3c216be51b67d4034f47.webp",
-    "static/media/blog.webp": "/portfolio/static/media/blog.9b0dd809cdbaa1e37638.webp",
+    "static/media/headbook.png": "/portfolio/static/media/headbook.f30520dbded948af3eae.png",
     "static/media/waldo.png": "/portfolio/static/media/waldo.089ba6fd32af64338a69.png",
     "static/media/pfp.jpg": "/portfolio/static/media/pfp.1f0191c97aa2be263b71.jpg",
-    "static/media/library.png": "/portfolio/static/media/library.abf302cc820d6096ad37.png",
     "static/media/waldo.webp": "/portfolio/static/media/waldo.44a1b02cf0ad7bee5c93.webp",
-    "static/media/library.webp": "/portfolio/static/media/library.e52a78a08ea2e98614d5.webp",
     "static/media/shopping.webp": "/portfolio/static/media/shopping.9ee20edbc6f5ddf18ab6.webp",
     "static/media/members.png": "/portfolio/static/media/members.d07c9592ffdaf3928b7a.png",
+    "static/media/headbook.webp": "/portfolio/static/media/headbook.e9ac95b2dd8f527247ae.webp",
     "static/media/battleship.webp": "/portfolio/static/media/battleship.691d70983fdc71d41550.webp",
     "static/media/tictactoe.png": "/portfolio/static/media/tictactoe.b521f0867e265eef10cf.png",
     "static/media/tictactoe.webp": "/portfolio/static/media/tictactoe.a0db209bfc5d7da36110.webp",
@@ -25,10 +21,10 @@
     "static/media/open-in-new.svg": "/portfolio/static/media/open-in-new.3ede19ed228086e87d899cfdb6684d58.svg",
     "static/media/email.svg": "/portfolio/static/media/email.c7a364af28c1fc7cbb30013d1a063471.svg",
     "main.70b957ab.css.map": "/portfolio/static/css/main.70b957ab.css.map",
-    "main.e8c08eaf.js.map": "/portfolio/static/js/main.e8c08eaf.js.map"
+    "main.1e02e51a.js.map": "/portfolio/static/js/main.1e02e51a.js.map"
   },
   "entrypoints": [
     "static/css/main.70b957ab.css",
-    "static/js/main.e8c08eaf.js"
+    "static/js/main.1e02e51a.js"
   ]
 }
