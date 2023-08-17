@@ -5,14 +5,14 @@ import shoppingImg from "../images/shopping.png";
 import shoppingImgWebp from "../images/shopping.webp";
 import waldoImg from "../images/waldo.png";
 import waldoImgWebp from "../images/waldo.webp";
-import tictactoeImg from "../images/tictactoe.png";
-import tictactoeImgWebp from "../images/tictactoe.webp";
 import headbookImg from "../images/headbook.png";
 import headbookImgWebp from "../images/headbook.webp";
 import battleshipImg from "../images/battleship.png";
 import battleshipImgWebp from "../images/battleship.webp";
 import membersImg from "../images/members.png";
 import membersImgWebp from "../images/members.webp";
+import catImg from "../images/catwiki.png";
+import catImgWebp from "../images/catwiki.webp";
 
 function Projects (){
     return (
@@ -40,6 +40,13 @@ function Projects (){
                     demo="https://ewardou.github.io/wheres-waldo/"
                     source="https://github.com/ewardou/wheres-waldo"
                     tags={["React.js", "Firebase", "HTML", "CSS"]}/>
+                <ProjectCard title="Cat Wiki"
+                    description="A site where users can find information about different cat breeds. Each breed's page contains data about its origin, life span, personality, and a small gallery of pictures."
+                    minImage={catImgWebp}
+                    image={catImg}
+                    demo="https://cat-wiki-ewardou.vercel.app/"
+                    source="https://github.com/ewardou/cat-wiki"
+                    tags={["Express.js", "React.js", "Typescript", "TailwindCSS"]}/>
                 
                 <ProjectCard title="Battleship"
                     description="A Battleship game project where a user plays against the computer. The player can deploy its float as desired using drag and drop or randomly with a button."
@@ -47,13 +54,6 @@ function Projects (){
                     image={battleshipImg}
                     demo="https://ewardou.github.io/battleship/"
                     source="https://github.com/ewardou/battleship"
-                    tags={["Javascript", "HTML", "CSS"]}/>
-                <ProjectCard title="Tic tac toe"
-                    description="It is the classic game of tic tac toe. The user has the option of playing against another player locally or against the CPU."
-                    minImage={tictactoeImgWebp}
-                    image={tictactoeImg}
-                    demo="https://ewardou.github.io/tic-tac-toe/"
-                    source="https://github.com/ewardou/tic-tac-toe"
                     tags={["Javascript", "HTML", "CSS"]}/>
                 <ProjectCard title="Members only"
                     description="A members' site where users can sign up and write messages, where each user has different abilities and permissions given they provide the passcode ('mango'). The app uses Passport.js with local strategy for auth."

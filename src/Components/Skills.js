@@ -23,6 +23,9 @@ function Skills(){
                 url="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                 name="Javascript" />
             <SkillCard 
+                url="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                name="Typescript" />
+            <SkillCard 
                 url="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                 name="React.js" />
             <SkillCard 
@@ -43,6 +46,9 @@ function Skills(){
             <SkillCard 
                 url="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
                 name="Webpack" />
+            <SkillCard 
+                url="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                name="TailwindCSS" />
         </div>
     )
 }
